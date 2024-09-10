@@ -98,7 +98,7 @@ namespace LaboratorioNo2
         //Evento Enter de guia para el ingreso de la cedula
         private void tbCedula_Enter(object sender, EventArgs e)
         {
-            if (tbCedula.Text == "00-0000-0000")
+            if (tbCedula.Text == "000-00000-0000") //se agregan mas ceros
             {
                 tbCedula.Text = "";
                 tbCedula.ForeColor = Color.Black;
